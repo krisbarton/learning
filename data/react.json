@@ -1,0 +1,30 @@
+[
+    {
+        "itemId": 1,
+        "topicId": 1,
+        "topic": "jsx",
+        "title": "What is JSX?",
+        "content": "JSX is Javascript and HTML combined!"
+    },
+    {
+        "itemId": 2,
+        "topicId": 1,
+        "topic": "jsx",
+        "title": "What is JSX continued...?",
+        "content": "JSX is Javascript and HTML combined!"
+    },
+    {
+        "itemId": 1,
+        "topicId": 2,
+        "topic": "state",
+        "title": "What is State in React?",
+        "content": "In React, State is a built-in object that stores properties belonging to the component."
+    },
+    {
+        "itemId": 2,
+        "topicId": 2,
+        "topic": "state",
+        "title": "How to use State in React?",
+        "content": "You can use state by either using class components or the usestate hook."
+    }
+]
