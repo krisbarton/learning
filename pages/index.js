@@ -9,9 +9,13 @@ import LearningStore from '../store/learning';
 /* 
 
   further features: 
-  - Percentage until complete
+  - Style
+  - Use Context API to share state. 
+  - Percentage until complete.
   - Switch between code json data i.e. typescript, node etc. 
-
+  - Include GITHUB / Codepen link for displaying code and concepts (there needs to be plenty of examples).
+  - Set up a Node based API to serve the data.
+  
 */
 
 export default function Home() {

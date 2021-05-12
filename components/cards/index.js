@@ -13,9 +13,11 @@ const Cards = ({ actionFunction, nextCard, initialState, nextTopic }) => {
             { card ?
                 <>
                     <CardDisplay title={card.title} content={card.content} />
-                    { nextCardThisTopic ? <button onClick={nextCard}>Next Card</button> : ''}
-                    { nextTopicFirstCard ? <button onClick={nextTopic}>Next Topic</button> : ''}
-                    <button onClick={actionFunction}>Stop Learning</button>
+                    <div className="card__ctas">
+                        {nextCardThisTopic ? <button onClick={nextCard}>Next Card</button> : ''}
+                        {nextTopicFirstCard ? <button onClick={nextTopic}>Next Topic</button> : ''}
+                        <button onClick={actionFunction}>Stop Learning</button>
+                    </div>
                 </> :
                 <p>No more cards!</p>
             }

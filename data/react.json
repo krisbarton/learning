@@ -26,5 +26,12 @@
         "topic": "state",
         "title": "How to use State in React?",
         "content": "You can use state by either using class components or the usestate hook."
+    },
+    {
+        "itemId": 1,
+        "topicId": 3,
+        "topic": "props",
+        "title": "What are props?",
+        "content": "You can use state by either using class components or the usestate hook."
     }
 ]
